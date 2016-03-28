@@ -1,0 +1,64 @@
+/*----- CSS Geral -----*/
+
+body{
+    font-family : "Helvetica Neue", sans-serif;
+    color: #fff;
+}
+
+.clear{
+    clear: both;
+}
+.content{
+    width: 96%;
+}
+/*----- Fim CSS Geral -----*/
+
+/*----- Header -----*/
+header{
+    width: 100%;
+    background-color: #000;
+}
+header h1{
+    font-size: 1.2em;
+    width: 93%;
+    float: left;
+    font-weight: 300;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+header .cor-logo{
+    color: #E87E04;
+}
+header .content{
+    padding-left:10px;
+}
+header .menu-mobile{
+    width: 7%;
+    float: right;
+    font-size: 1.7em;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+header .menu-mobile:hover{
+    color:#E87E04;
+}
+.menu ul li{
+    font-size: 0.8em;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid #D35400;
+}
+.menu ul li:nth-of-type(1){
+    border-top: none;
+}
+.menu ul li:hover{
+    color: #fff;
+    background-color: #E87E04;
+}
+header .menu{
+    text-align: center;
+    width: 100%;
+}
+
+/*----- Fim Header -----*/
+
