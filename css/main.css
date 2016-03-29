@@ -10,13 +10,14 @@ body{
 }
 .content{
     width: 96%;
+    margin: 0 auto;
 }
 /*----- Fim CSS Geral -----*/
 
 /*----- Header -----*/
 header{
     width: 100%;
-    background-color: #000;
+    background-color: #2C3E50;
 }
 header h1{
     font-size: 1.2em;
@@ -24,20 +25,22 @@ header h1{
     float: left;
     font-weight: 300;
     padding-top: 15px;
-    margin-bottom: 20px;
+    padding-bottom: 15px;
 }
 header .cor-logo{
     color: #E87E04;
 }
 header .content{
     padding-left:10px;
+    padding-right: 15px;
 }
 header .menu-mobile{
     width: 7%;
     float: right;
+    text-align: right;
     font-size: 1.7em;
     padding-top: 10px;
-    padding-right: 20px;
+    cursor: pointer;
 }
 header .menu-mobile:hover{
     color:#E87E04;
@@ -58,7 +61,10 @@ header .menu-mobile:hover{
 header .menu{
     text-align: center;
     width: 100%;
+    display: none;
 }
+
+
 
 /*----- Fim Header -----*/
 
