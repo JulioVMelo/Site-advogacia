@@ -63,8 +63,47 @@ header .menu{
     width: 100%;
     display: none;
 }
-
-
-
 /*----- Fim Header -----*/
+/*----- Banner -----*/
+main{
+    margin-top: 5px;
+}
+.banner .content{
+    height: 200px;
+    background-color: #ccc;
+}
+/*----- Fim Banner -----*/
+/*----- Articles -----*/
+.conteudo .content{
+    width: 92%;
+}
+main .conteudo h2{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #2C3E50;
+    border-top: 4px solid #D35400;
+    padding-top: 10px;
+    width: 100%;
+}
+main .conteudo p{
+    text-align: justify;
+    font-size: 0.9em;
+    padding-top: 30px;
+    color: black;
+    width: 100%;
+}
+main .conteudo button{
+    margin-top: 20px;
+    background-color: #D35400;
+    color: #fff;
+    width: 20%;
+}
+main .conteudo{
+    background-color: #fff;
+}
+
+/*----- Fim Article -----*/
+
+
 
