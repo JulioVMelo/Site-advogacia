@@ -112,25 +112,28 @@ main .conteudo i{
 }
 /*----- Fim Article -----*/
 /*----- Contato -----*/
-.contato{
-    color: #fff;
-    text-align: center;
+.dados{
     background-color: #2C3E50;
+    color: #fff;
+}
+.contato{
+    text-align: center;
     padding-top: 20px;
-    
+    padding-bottom: 15px;
+}
+.contato h2{
+    margin-bottom: 20px;
 }
 .contato .number-phone{
     font-size: 1.3em;
-    padding-top: 15px;
+    padding-bottom: 20px;
     display: block;
 }
 .contato .number-phone i{
     margin-right:10px;
 }
-section .social-icons{
-    margin-top: 20px;
+article .social-icons{
     text-align: center;
-    padding-bottom:20px;
 }
 .social-icons i{
     font-size: 1.4em;
@@ -143,6 +146,88 @@ section .social-icons{
     padding-right: 0;
 }
 /*----- Fim Contato -----*/
+/*----- informações -----*/
+.informacoes{    
+    background-color: #2C3E50;
+}
+
+.orcamento .content{
+    width: 92%;
+    border-top: 2px solid #6C7A89;
+    padding-top: 20px;
+}
+.orcamento form label{
+    text-align: center;
+    width: 100%;
+}
+.orcamento .content input{
+    width: 100%;
+    background-color: #2C3E50;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 5px 0 5px 0;
+}
+.orcamento .content input[type="submit"]{
+    background-color: #fff;
+    color:   #2C3E50;
+    width: 30%;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+.orcamento .content input[type="file"]{
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+.orcamento textarea{
+    width: 100%;
+    background-color: #2C3E50;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 5px 0 5px 0;
+    resize: none;
+}
+.orcamento h2{
+    text-align: center;    
+    font-size: 1.4em;
+}
+.orcamento p{
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+/*----- Fim informações -----*/
+/*----- Rodapé -----*/
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000;
+}
+footer p{
+    width:100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.dev-icons{
+    width: 100%;
+    text-align: center;
+}
+.dev-icons i{
+    font-size: 1.6em;
+    margin-left: 10px;
+}
+.dev-icons i:nth-of-type(1){
+    margin-left: 0;
+}
+/*----- Fim Rodapé -----*/
+
 
 
 
