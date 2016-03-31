@@ -18,6 +18,7 @@ body{
 header{
     width: 100%;
     background-color: #2C3E50;
+    
 }
 header h1{
     font-size: 1.2em;
@@ -227,6 +228,70 @@ footer p{
     margin-left: 0;
 }
 /*----- Fim Rodapé -----*/
+/*----- Equipe -----*/
+.advogado{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid #6C7A89;
+    padding-bottom: 30px;
+}
+.advogado:last-child{
+    border-bottom: none; 
+}
+.imagem-advogado{
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+}
+.advogado p{
+    width: 100%;
+    color: #2C3E50;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*----- Fim Equipe -----*/
+/*----- Escritorio -----*/
+.escritorio .imagem-escritorio{
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    background-color: #ccc;
+}
+.sobre p{
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+.escritorio iframe{
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.escritorio p{
+    color: #2C3E50;
+    font-size: 1.2em;
+}
+.escritorio h2{
+    border-top: 2px solid #6C7A89;
+    padding-top: 20px;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+.escritorio i{
+    padding-left: 10px;
+}
+.local{
+ margin-bottom: 20px;   
+}
+
+
+/*----- Fim Escritorio -----*/
+
+
 
 
 

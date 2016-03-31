@@ -22,11 +22,11 @@
             
             <nav class="menu clear">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ESCRITÓRIO</a></li>
-                    <li><a href="">ADVOGADOS</a></li>
-                    <li><a href="">ÁREAS DE EXERCÍCIO</a></li>
-                    <li><a href="">CONTATO</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="escritorio.html">ESCRITÓRIO</a></li>
+                    <li><a href="equipe.html">ADVOGADOS</a></li>
+                    <li><a href="#atuacao">ÁREAS DE ATUAÇÃO</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
                 </ul>
             </nav>
             <div class="clear"></div>
@@ -41,7 +41,7 @@
             <div class="content">    
                 <h2>Nossa equipe</h2>
                 <p>Sou um parágrafo. Clique aqui para me editar e adicionar seu texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e você poderá adicionar seu conteúdo e trocar fontes.Este é um ótimo espaço para escrever um texto mais longo sobre sua empresa e seus serviços. Você pode usar este espaço para contar mais detalhes sobre sua empresa.</p>
-                <button>Mais</button>
+                <a href="equipe.html"><button type="button">Mais</button></a>
             </div>
         </article>
         <article class="conteudo servicos">
@@ -53,7 +53,7 @@
         </article>
         <article class="conteudo">
             <div class="content atuacao">
-                <h2>Áreas de atuação</h2>
+                <h2 id="atuacao">Áreas de atuação</h2>
                 <p><i class="fa fa-balance-scale"></i>Direito Civíl</p>
                 <p><i class="fa fa-balance-scale"></i>Direito Tributário</p>
                 <p><i class="fa fa-balance-scale"></i>Direito Eleitoral</p>
@@ -64,7 +64,7 @@
         <section class="informacoes">
             <article class="contato">
                 <div class="content">
-                    <h2>Contato</h2>
+                    <h2 id="contato">Contato</h2>
                         <span class="number-phone"><i class="fa fa-phone"></i>(83)9 9999-9999</span>
                         <span class="number-phone"><i class="fa fa-whatsapp"></i>(83)9 9999-9999</span>
                         <div class="social-icons"><i class="fa fa-facebook"></i><i class="fa fa-twitter"></i><i class="fa fa-instagram"></i></div>
@@ -79,6 +79,8 @@
                         <input type="email" id="email">
                         <label for="nome">Nome</label>
                         <input type="text" id="nome">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto">
                         <label for="message">Mensagem</label>
                         <textarea form="form-email" rows="7"></textarea>
                         <label for="">Anexo</label>
