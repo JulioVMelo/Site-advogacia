@@ -4,6 +4,11 @@ $(document).ready(function(){
         $('.menu').slideToggle();
     });
 
+
+  $('.banner .content').cycle({
+    fx: 'cover'
+});
+
     $(".civil .fa-plus").click(function(){
         $(".desc-civil").slideToggle();
         $(".civil .fa-plus").toggleClass("fa-minus")
