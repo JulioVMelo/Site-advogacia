@@ -118,14 +118,28 @@ main .conteudo button{
 }
 main .conteudo{
     background-color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
-
-main .conteudo i{
-    padding-right: 3%;
+main .conteudo .fa-balance-scale{
+    margin-right:3% ;
     color: #2C3E50;
-
 }
+.conteudo .atuacao .fa-plus{
+    cursor: pointer;
+    margin-left: 3%;
+}
+.conteudo .atuacao p{
+  margin-bottom: 15px;
+  padding-top: 0;
+}
+.conteudo .atuacao h2{
+  margin-bottom: 20px;
+}
+.desc-civil, .desc-tributario, .desc-eleitoral, .desc-empresarial, .desc-admnistrativo{
+   display: none;
+   text-align: justify;
+}
+
 /*----- Fim Article -----*/
 /*----- Contato -----*/
 .dados{
