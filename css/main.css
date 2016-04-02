@@ -90,7 +90,7 @@ main{
 }
 .banner .content img{
   max-width: 100%;
-  width: 950px;
+  height: 100%;
 }
 /*----- Fim Banner -----*/
 /*----- Articles -----*/
@@ -135,6 +135,10 @@ main .conteudo .fa-balance-scale{
 .conteudo .atuacao p{
   margin-bottom: 15px;
   padding-top: 0;
+}
+.atuacao h4{
+  color: #2C3E50;
+  margin-bottom: 10px;
 }
 .conteudo .atuacao h2{
   margin-bottom: 20px;
@@ -264,30 +268,38 @@ footer p{
 /*----- Equipe -----*/
 .advogado{
     width: 100%;
-    background-color: #fff;
-    border-bottom: 2px solid #6C7A89;
-    padding-bottom: 30px;
+
+}
+.advogado .content{
+  border-bottom: 2px solid #6C7A89;
+  padding-bottom: 30px;
+  width: 100%;
+
 }
 .advogado:last-child{
     border-bottom: none;
 }
-.imagem-advogado{
-    border-radius: 5px;
-    margin-top: 20px;
-    width: 100%;
-    background-color: #ccc;
+.advogado .img-adv{
+	width: 100%;s
+	height: auto;
+  overflow: hidden;
+  
 }
-.imagem-advogado img{
+.advogado img{
+
   max-width: 100%;
-  height: auto;;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
-.advogado p{
-    width: 100%;
-    color: #2C3E50;
-    text-align: justify;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.advogado  p{
+  color:#2C3E50;
+  text-align: justify;
+  font-size: 1.1em;
+  width: 100%;
+
+
 }
+
 /*----- Fim Equipe -----*/
 /*----- Escritorio -----*/
 .escritorio .imagem-escritorio{
@@ -327,6 +339,197 @@ footer p{
 .local{
  margin-bottom: 20px;
 }
-
-
 /*----- Fim Escritorio -----*/
+/*----- Responsivo -----*/
+@media screen and (min-width:520px){
+  .advogado .img-adv{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+  }
+  .advogado p{
+    padding-top: 10px;
+    width: 46%;
+    float: left;
+    margin-right: 2%;
+  }
+}
+/*----- 700px -----*/
+@media screen and (min-width:700px) {
+  .equipe {
+    width: 50%;
+    float: left;
+  }
+.equipe .content{
+  padding-left: 5%;
+}
+  .servicos{
+    float: right;
+    width: 50%;
+  }
+  .servicos .content{
+    padding-right: 5%;
+  }
+
+  .atuacao{
+    width: 100%;
+  }
+  .orcamento form label{
+    width: 100%;
+  }
+  .orcamento .content input{
+    text-align:left;
+    width: 100%;
+  }
+  .campo-email{
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+  }
+  .campo-nome{
+    margin-left: 2%;
+    float:left;
+    width: 48%;
+  }
+  .orcamento .content input[type="submit"]{
+      text-align: center;
+      width: 20%;
+      border-radius: 10px;
+      font-weight: 700;
+
+  }
+  footer p{
+    margin-left: 20px;
+      width:50%;
+      text-align: left;
+      margin-bottom: 0;
+      float: left;
+  }
+  footer .sub{
+    display: none;
+  }
+  footer .dev-icons{
+  text-align: right;
+  padding-right: 20px;
+  }
+}
+/*----- Fim 700px -----*/
+/*----- 890px -----*/
+@media screen and (min-width:890px){
+      .campo-assunto{
+        width: 100%;
+        float: left;
+      }
+      .campo-assunto input{
+        width: 48%!important;
+      }
+      .campo-assunto label{
+        display:block;
+        text-align: left!important;
+      }
+      .campo-message label{
+        display: block;
+        text-align: left!important;
+      }
+      .campo-message textarea{
+        width: 48%;
+      }
+      .orcamento form>label{
+        display: block;
+        text-align: left;
+
+      }
+      header .logo{
+        width: auto;
+        float: left;
+        margin-top: 10px;
+        font-size: 1.5em;
+      }
+      header{
+        padding-bottom: 20px;
+      }
+      header .menu{
+        float: right;
+        display: block!important;
+        width:auto;
+        clear: none;
+        margin-top: 30px;
+      }
+      .menu ul li{
+        float: left;
+        width: auto;
+        margin-left: 15px;
+        border-top:none;
+        font-size: 0.9em;
+      }
+      .menu ul li:hover{
+        background-color: inherit;
+        color: #E87E04;
+      }
+      header .menu-mobile{
+        display: none;
+      }
+}
+/*----- Fim 890px -----*/
+/*----- 1200px -----*/
+@media screen and (min-width:1200px){
+  .content{
+    width: 80%;
+  }
+  main{
+    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .informacoes .contato{
+      width: 80%;
+      margin: 0 auto;
+  }
+  .informacoes .orcamento{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+/*----- Fim 1200px -----*/
+/*----- 1280px -----*/
+@media screen and (min-width:1280px){
+  .content{
+    width: 70%;
+  }
+
+  .atuacao .content{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+  }
+  .atuacao .content div{
+      display: block;
+      text-align: left;
+      margin-right: 20px;
+      margin-bottom: 50px;
+  }
+  .atuacao .content:nth-of-type(3n+3){
+      margin-right: 0px;
+      float: right;
+  }
+  .fa-plus{
+    display: none;
+  }
+  main{
+    padding-top: 10px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .informacoes .contato{
+      width: 70%;
+      margin: 0 auto;
+  }
+  .informacoes .orcamento{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+/*----- Fim 1280px -----*/
+
+/*----- Fim Responsivo -----*/
