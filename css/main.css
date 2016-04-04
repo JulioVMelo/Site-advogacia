@@ -283,7 +283,7 @@ footer p{
 	width: 100%;s
 	height: auto;
   overflow: hidden;
-  
+
 }
 .advogado img{
 
@@ -306,7 +306,7 @@ footer p{
     margin-top: 20px;
     height: auto;
     width: 100%;
-    background-color: #ccc;
+    margin-bottom: 20px;
 }
 .escritorio img{
   width: 730px;
@@ -346,7 +346,9 @@ footer p{
     width: 48%;
     float: left;
     margin-right: 2%;
+    margin-left: 2%;
   }
+
   .advogado p{
     padding-top: 10px;
     width: 46%;
@@ -357,65 +359,97 @@ footer p{
 /*----- 700px -----*/
 @media screen and (min-width:700px) {
   .equipe {
-    width: 50%;
-    float: left;
+      width: 50%;
+      float: left;
   }
-.equipe .content{
-  padding-left: 5%;
-}
+  .equipe .content{
+      padding-left: 5%;
+  }
+
   .servicos{
-    float: right;
-    width: 50%;
+      float: right;
+      width: 50%;
   }
   .servicos .content{
-    padding-right: 5%;
+      padding-right: 5%;
   }
 
   .atuacao{
-    width: 100%;
+        width: 100%;
   }
   .orcamento form label{
-    width: 100%;
+      width: 100%;
   }
   .orcamento .content input{
-    text-align:left;
-    width: 100%;
+      text-align:left;
+      width: 100%;
   }
   .campo-email{
-    float: left;
-    width: 48%;
-    margin-right: 2%;
+      float: left;
+      width: 48%;
+      margin-right: 2%;
   }
   .campo-nome{
-    margin-left: 2%;
-    float:left;
-    width: 48%;
+      margin-left: 2%;
+      float:left;
+      width: 48%;
   }
   .orcamento .content input[type="submit"]{
-      text-align: center;
-      width: 20%;
-      border-radius: 10px;
-      font-weight: 700;
+        text-align: center;
+        width: 20%;
+        border-radius: 10px;
+        font-weight: 700;
 
   }
   footer p{
-    margin-left: 20px;
-      width:50%;
-      text-align: left;
-      margin-bottom: 0;
-      float: left;
+      margin-left: 20px;
+        width:50%;
+        text-align: left;
+        margin-bottom: 0;
+        float: left;
   }
   footer .sub{
-    display: none;
+      display: none;
   }
   footer .dev-icons{
-  text-align: right;
-  padding-right: 20px;
+      text-align: right;
+      padding-right: 20px;
   }
 }
 /*----- Fim 700px -----*/
 /*----- 890px -----*/
 @media screen and (min-width:890px){
+  .escritorio .imagem-escritorio{
+
+      height: auto;
+      width: 100%;
+      text-align: center;
+
+  }
+
+      .advogado{
+        float: left;
+        width: 40%;
+        margin-left: 7%;
+      }
+      .advogado:nth-of-type(2n+2){
+      margin-left: 5%;
+
+      }
+      .advogado .content{
+        width: 90%;
+        border-bottom: none;
+
+      }
+      .advogado .img-adv{
+        width: 75%;
+        float: none;
+      }
+      .advogado p{
+        width: 100%;
+        float: none;
+      }
+
       .campo-assunto{
         width: 100%;
         float: left;
@@ -473,6 +507,32 @@ footer p{
 /*----- Fim 890px -----*/
 /*----- 1200px -----*/
 @media screen and (min-width:1200px){
+  .advogado{
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+  }
+  .advogado:nth-of-type(2n+2){
+   margin-left: 0;
+   margin-right: 5%;
+  }
+  .advogado:nth-of-type(3n+3){
+    margin:0;
+  }
+  .advogado .content{
+    width: 90%;
+    border-bottom: none;
+
+  }
+  .advogado .img-adv{
+    width: 75%;
+    float: none;
+  }
+  .advogado p{
+    width: 100%;
+    float: none;
+  }
+
   .content{
     width: 80%;
   }
